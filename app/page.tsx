@@ -85,7 +85,7 @@ export default function Home() {
                 </div>
                 <p className="p-2">{item.todo}</p>
                 <button onClick={() => handleEdit(item.id)}> 🖊️</button>
-                <button onClick={() => handleRemove(item.id)} > 🧽</button>
+                <button onClick={() => handleRemove(item.id)} >🧽</button>
               </div>
             }</div>
           ))}
