@@ -33,7 +33,7 @@ export default function Home() {
     }
   }
 
-  console.log(store)
+  console.log('test cop')
 
   const handleEdit = (id: number) => {
     const itemToEdit = store.find((item) => item.id === id)
